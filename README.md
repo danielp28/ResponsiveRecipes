@@ -18,4 +18,5 @@ Breakdown of tasks =
 -adds ingredients to shopping cart.
 -finds grocery stores based on zip code location.
 
-
+**Deployed Site**
+https://jackellis520.github.io/firstProject/
