@@ -2,12 +2,12 @@ body{
     box-sizing: border-box;
 }
 
-#search-bar {
+#search-form {
     margin-top: 2%;
 }
 
 #search-text {
-width: 85%;
+width: 80%;
 }
 
 #search-button {
