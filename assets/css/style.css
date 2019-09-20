@@ -1,0 +1,15 @@
+body{
+    box-sizing: border-box;
+}
+
+#search-bar {
+    margin-top: 2%;
+}
+
+#search-text {
+width: 85%;
+}
+
+#search-button {
+    margin: 0;
+}
