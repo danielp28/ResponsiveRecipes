@@ -1,32 +1,53 @@
 body{
     box-sizing: border-box;
+
 }
 
-#search-bar {
+.conatainer
+
+.w-100 {
+    max-width: 1200px;
+    max-height: 600px;
+}
+
+#search-form {
     margin-top: 2%;
 }
 
 #search-text {
-width: 85%;
+width: 80%;
 }
 
 #search-button {
     margin: 0;
 }
 
+.navbar {
+    margin: 0 0 30px 0;
+}
+
 .cards {
     margin-left: 7%;
 }
 
-body {
-    background-color: #E1EEC7;
+.card-body {
+    box-shadow: 10px 10px 3px rgba(128, 128, 128, 0.397);
+    margin-bottom: 10px;
 }
 
-.navbar {
-    background-color: moccasin;
-}
 
-#mission {
-    color: salmon;
-    text-align: center;
-}
+
+
+/* 
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
