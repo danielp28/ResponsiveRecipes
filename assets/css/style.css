@@ -3,7 +3,6 @@ body{
 
 }
 
-.conatainer
 
 .w-100 {
     max-width: 1200px;
@@ -26,19 +25,16 @@ width: 80%;
     margin: 0 0 30px 0;
 }
 
-.slide-img {
-    
-}
-
-.cards {
+.card {
     margin-left: 7%;
+    width: 18rem;
     
 }
 
 .card-body {
     box-shadow: 10px 10px 3px rgba(128, 128, 128, 0.397);
     margin-bottom: 10px;
-    content-al
+    
 
 }
 
