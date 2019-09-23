@@ -17,3 +17,16 @@ width: 85%;
 .cards {
     margin-left: 7%;
 }
+
+body {
+    background-color: #E1EEC7;
+}
+
+.navbar {
+    background-color: moccasin;
+}
+
+#mission {
+    color: salmon;
+    text-align: center;
+}
