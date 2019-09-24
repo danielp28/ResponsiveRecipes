@@ -57,17 +57,24 @@ $(document).ready(function () {
   })
 
 
-  // var geolocatorURL = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCrAofSEXNIcM1ThF8thbt4AUBAk2P6Wnw"
+  var geolocatorURL = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCrAofSEXNIcM1ThF8thbt4AUBAk2P6Wnw"
+  var sendInfo = 
+    {
+      "macAddress": "A0:88:69:47:E9:6A",
+      
+    }
   
-  // $.ajax({
-  //   url: geolocatorURL,
-  //   method: "POST",
-  //   data: JSON.stringify(sendInfo),
-  //   contentType: "application/json; charset=utf-8",
-  //   traditional: true,
-  // }).then(function(response){
-  //   console.log(response)
-  // })
+
+
+  $.ajax({
+    url: geolocatorURL,
+    method: "POST",
+    data: JSON.stringify(sendInfo),
+    contentType: "application/json; charset=utf-8",
+    traditional: true,
+  }).then(function(response){
+    console.log(response)
+  })
 
 
 
