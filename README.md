@@ -19,4 +19,4 @@ Breakdown of tasks =
 -finds grocery stores based on zip code location.
 
 **Deployed Site**
-https://jackellis520.github.io/firstProject/ 
+https://jackellis520.github.io/ResponsiveRecipes/ 
