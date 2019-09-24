@@ -1,13 +1,21 @@
 body{
     box-sizing: border-box;
-
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 16px;
+    background-color: rgba(35, 131, 35, 0.637);
+    
 }
+
 
 
 
 .w-100 {
     max-width: 1200px;
     max-height: 600px;
+}
+
+.form-container {
+    margin-bottom: 20px;
 }
 
 #search-form {
@@ -26,17 +34,56 @@ width: 80%;
     margin: 0 0 30px 0;
 }
 
-
-
 .card {
-    margin-left: 7%;
     width: 18rem;
+       
 }
 
-.card-body {
-    box-shadow: 10px 10px 3px rgba(128, 128, 128, 0.397);
-    margin-bottom: 10px;
+.card-body {    
+    margin-bottom: 20px;   
+    background-color: rgb(253, 253, 253);
+    border-radius: 15px;
+    height: 500px;   
+    
+    
+
 }
+
+.card-img-top {    
+    margin-bottom: 15px;
+
+}
+
+
+
+.btn {
+    border-radius: 25px;
+
+}
+.btn-primary {
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+
+}
+
+.btn-secondary {
+    width: 40%;
+    
+}
+
+.d-md-block {
+    background-color: cadetblue;
+    opacity: .85;
+}
+
+#carouselExampleCaptions img {
+    width: 1200px;
+    height: 500px;
+}
+
+
+
 
 
 
