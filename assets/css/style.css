@@ -1,5 +1,13 @@
 body{
     box-sizing: border-box;
+
+}
+
+
+
+.w-100 {
+    max-width: 1200px;
+    max-height: 600px;
 }
 
 #search-form {
@@ -18,12 +26,17 @@ width: 80%;
     margin: 0 0 30px 0;
 }
 
-.slide-img {
-    
+
+
+.card {
+    margin-left: 7%;
+    width: 18rem
 }
 
-.cards {
-    margin-left: 7%;
+.card-body {
+    box-shadow: 10px 10px 3px rgba(128, 128, 128, 0.397);
+    margin-bottom: 10px;
+
 }
 
 
