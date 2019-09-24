@@ -3,14 +3,14 @@ $(document).ready(function () {
   $("#search-button").on("click", function (event) {
     event.preventDefault()
     var search = $("#search-bar").val().trim()
-    var queryURLTwo = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?q=" + search + "&app_id=${8e2c2e46}&app_key=${1d28c357078eeac64a36112540200b1a}"
+    var queryURL = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?q=" + search + "&app_id=${8e2c2e46}&app_key=${1d28c357078eeac64a36112540200b1a}"
 
     $.ajax({
-      url: queryURLTwo,
+      url: queryURL,
       method: "GET"
     }).then(function (response) {
       
-      console.log(response)
+      // console.log(response)
      
       var newRow = $("<div>");
       newRow.addClass("row");
@@ -31,7 +31,7 @@ $(document).ready(function () {
         cardTitle.addClass("card-title");
         var cardText = $("<p>");
         cardText.addClass("card-text");
-        cardText.text("From: "+response.hits[i].recipe.source)
+        cardText.text("Source: "+response.hits[i].recipe.source)
         var cardLink = $("<a>");
         cardLink.attr("href", response.hits[i].recipe.url);
         cardLink.addClass("btn btn-primary");
@@ -56,6 +56,18 @@ $(document).ready(function () {
     })
   })
 
+
+  var geolocatorURL = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCrAofSEXNIcM1ThF8thbt4AUBAk2P6Wnw"
+  
+  $.ajax({
+    url: geolocatorURL,
+    method: "POST",
+    data: JSON.stringify(sendInfo),
+    contentType: "application/json; charset=utf-8",
+    traditional: true,
+  }).then(function(response){
+    console.log(response)
+  })
 
 
 
