@@ -16,6 +16,7 @@ body{
 
 .form-container {
     margin-bottom: 20px;
+
 }
 
 #search-form {
@@ -43,15 +44,12 @@ width: 80%;
     margin-bottom: 20px;   
     background-color: rgb(253, 253, 253);
     border-radius: 15px;
-    height: 500px;   
+    height: 500px;
     
-    
-
 }
 
 .card-img-top {    
     margin-bottom: 15px;
-
 }
 
 
@@ -60,6 +58,7 @@ width: 80%;
     border-radius: 25px;
 
 }
+
 .btn-primary {
     position: absolute;
     left: 30px;
@@ -67,10 +66,14 @@ width: 80%;
 
 }
 
-.btn-secondary {
-    width: 40%;
+#dietary-restrictions {
+    margin-bottom: 5px;
     
 }
+
+
+
+
 
 
 
