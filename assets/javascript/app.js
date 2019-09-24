@@ -10,7 +10,7 @@ $(document).ready(function () {
       method: "GET"
     }).then(function (response) {
       
-      console.log(response)
+      // console.log(response)
      
       var newRow = $("<div>");
       newRow.addClass("row");
@@ -31,7 +31,7 @@ $(document).ready(function () {
         cardTitle.addClass("card-title");
         var cardText = $("<p>");
         cardText.addClass("card-text");
-        cardText.text("From: "+response.hits[i].recipe.source)
+        cardText.text("Source: "+response.hits[i].recipe.source)
         var cardLink = $("<a>");
         cardLink.attr("href", response.hits[i].recipe.url);
         cardLink.addClass("btn btn-primary");
@@ -56,6 +56,25 @@ $(document).ready(function () {
     })
   })
 
+
+  var geolocatorURL = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCrAofSEXNIcM1ThF8thbt4AUBAk2P6Wnw"
+  var sendInfo = 
+    {
+      "macAddress": "A0:88:69:47:E9:6A",
+      
+    }
+  
+
+
+  $.ajax({
+    url: geolocatorURL,
+    method: "POST",
+    data: JSON.stringify(sendInfo),
+    contentType: "application/json; charset=utf-8",
+    traditional: true,
+  }).then(function(response){
+    console.log(response)
+  })
 
 
 
