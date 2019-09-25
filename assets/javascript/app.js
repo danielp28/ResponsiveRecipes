@@ -61,11 +61,11 @@ $(document).ready(function () {
         
       }
       $(".cards-div").prepend(newRow);
-      
-
     })
   })
 
+
+  
 
 
 
