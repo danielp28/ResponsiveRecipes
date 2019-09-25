@@ -104,8 +104,6 @@ width: 80%;
     color: rgb(255, 255, 255);    
     border-color: cadetblue;
     background-color: cadetblue;
-
-    
 }
 
 .d-md-block {
@@ -132,6 +130,17 @@ margin: 0%;
 #mission-statement {
     color: white;
     background-color: cadetblue;
+    width: 100%;
+    padding: 20px;
+}
+#checkbox-row {
+    padding: 10px;
+}
+.custom-control {
+    margin-left: 10px;
+}
+p {
+    font-size: 18px;
 }
 
 
