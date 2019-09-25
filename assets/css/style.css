@@ -71,9 +71,15 @@ width: 80%;
     
 }
 
+.d-md-block {
+    background-color: cadetblue;
+    opacity: .85;
+}
 
-
-
+#carouselExampleCaptions img {
+    width: 1200px;
+    height: 500px;
+}
 
 
 
@@ -98,4 +104,3 @@ width: 80%;
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
-
