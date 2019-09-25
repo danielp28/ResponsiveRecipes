@@ -6,8 +6,10 @@ body{
     
 }
 
-
-
+#main-navbar {
+    background-color: cadetblue;
+    color: white;
+}
 
 .w-100 {
     max-width: 1200px;
