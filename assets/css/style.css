@@ -72,6 +72,7 @@ width: 80%;
     
 }
 
+<<<<<<< HEAD
 /* #searchbar-div, #search-div, #dietary-div {
 margin: 0%;
 } */
@@ -81,10 +82,17 @@ margin: 0%;
 #search-div {
     text-align: right;
     margin-left: 0px;
+=======
+.d-md-block {
+    background-color: cadetblue;
+    opacity: .85;
+>>>>>>> master
 }
 
-
-
+#carouselExampleCaptions img {
+    width: 1200px;
+    height: 500px;
+}
 
 
 
@@ -109,4 +117,3 @@ margin: 0%;
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
-
