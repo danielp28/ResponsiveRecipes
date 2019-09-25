@@ -16,6 +16,7 @@ body{
 
 .form-container {
     margin-bottom: 20px;
+    padding-right: 10px;
 
 }
 
@@ -74,6 +75,17 @@ width: 80%;
 .d-md-block {
     background-color: cadetblue;
     opacity: .85;
+}
+
+/* #searchbar-div, #search-div, #dietary-div {
+margin: 0%;
+} */
+#dietary-div {
+    text-align: center;
+}
+#search-div {
+    text-align: right;
+    margin-left: 0px;
 }
 
 #carouselExampleCaptions img {
