@@ -3,6 +3,7 @@ body{
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 16px;
     background-color: rgb(63, 122, 77);
+    background-image: url("../images/supermartketssavvy.jpg");
     
 }
 
@@ -10,6 +11,10 @@ body{
 .w-100 {
     max-width: 1200px;
     max-height: 600px;
+}
+
+.carousel {
+    box-shadow: 2px 2px 20px;
 }
 
 .form-container {
@@ -53,9 +58,11 @@ width: 80%;
 
 .card-body {    
     margin-bottom: 20px;   
-    background-color: rgb(253, 253, 253);
+    /* background-color: rgb(253, 253, 253); */
     border-radius: 15px;
     height: 500px;
+    box-shadow: 2px 2px 20px;
+    background-color: whitesmoke;
     
 }
 
@@ -74,6 +81,9 @@ width: 80%;
     position: absolute;
     left: 30px;
     bottom: 40px;
+    border-color: cadetblue;
+    background-color: cadetblue;
+    
 
 }
 
@@ -107,6 +117,10 @@ margin: 0%;
     height: 500px;
 }
 
+#mission-statement {
+    color: white;
+    background-color: cadetblue;
+}
 
 
 
