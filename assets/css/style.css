@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 16px;
-    background-color: rgba(35, 131, 35, 0.637);
+    /* background-color: rgba(35, 131, 35, 0.637); */
     
 }
 
@@ -16,6 +16,7 @@ body{
 
 .form-container {
     margin-bottom: 20px;
+    padding-right: 10px;
 
 }
 
@@ -71,6 +72,16 @@ width: 80%;
     
 }
 
+/* #searchbar-div, #search-div, #dietary-div {
+margin: 0%;
+} */
+#dietary-div {
+    text-align: center;
+}
+#search-div {
+    text-align: right;
+    margin-left: 0px;
+}
 
 
 
