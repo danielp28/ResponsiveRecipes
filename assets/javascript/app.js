@@ -2,13 +2,30 @@ $(document).ready(function () {
 
   $("#search-button").on("click", function (event) {
     event.preventDefault()
+
+
+    function dumpInArray(){
+      var arr = [];
+      $('.form-check input[type="checkbox"]:checked').each(function(){
+         arr.push($(this).val());
+      });
+      console.log(arr)
+      return arr; 
+   }
+
+   
+      var result = dumpInArray().join("");
+   
+   console.log(result)
+
     var search = $("#recipe-search").val().trim();
-    var queryURL = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?q=" + search + "&app_id=${8e2c2e46}&app_key=${1d28c357078eeac64a36112540200b1a}"
     
+    var queryURL = "https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?q=" + search + "&app_id=${8e2c2e46}&app_key=${1d28c357078eeac64a36112540200b1a}"+result
     
+   
     
-      var param = $(".custom-control-input:checked").val()
-      queryURL = queryURL + param
+     console.log(queryURL)
+      
    
     
 
@@ -19,12 +36,12 @@ $(document).ready(function () {
       url: queryURL,
       method: "GET"
     }).then(function (response) {
-      
+      console.log(response)
 
      
       var newRow = $("<div>");
       newRow.addClass("row");
-      console.log(newRow)
+      
       
       for (var i=0; i<9; i++){
         var newCol = $("<div>");
