@@ -2,11 +2,9 @@ body{
     box-sizing: border-box;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 16px;
-    background-color: (63);
+    background-color: rgb(63, 122, 77);
     
 }
-
-
 
 
 .w-100 {
@@ -15,8 +13,13 @@ body{
 }
 
 .form-container {
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 
+}
+
+.restrictions-container {
+    background-color: white;
+    border-radius: 5px;
 }
 
 #search-form {
@@ -29,6 +32,10 @@ width: 80%;
 
 #search-button {
     margin: 0;
+    color: rgb(255, 255, 255);    
+    border-color: cadetblue;
+    background-color: cadetblue;
+    
 }
 
 .navbar {
@@ -68,6 +75,10 @@ width: 80%;
 
 #dietary-restrictions {
     margin-bottom: 5px;
+    color: rgb(255, 255, 255);    
+    border-color: cadetblue;
+    background-color: cadetblue;
+
     
 }
 
