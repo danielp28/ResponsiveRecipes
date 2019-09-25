@@ -73,6 +73,7 @@ width: 80%;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* #searchbar-div, #search-div, #dietary-div {
 margin: 0%;
 } */
@@ -82,6 +83,11 @@ margin: 0%;
 #search-div {
     text-align: right;
     margin-left: 0px;
+=======
+.d-md-block {
+    background-color: cadetblue;
+    opacity: .85;
+>>>>>>> master
 =======
 .d-md-block {
     background-color: cadetblue;
