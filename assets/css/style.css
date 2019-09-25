@@ -2,10 +2,22 @@ body{
     box-sizing: border-box;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 16px;
-    background-color: rgb(63, 122, 77);
+
     
 }
 
+#main-navbar {
+    background-color: cadetblue;
+    color: white;
+}
+
+.inherit-color {
+    color: inherit;
+}
+
+.inherit-color:hover {
+    color: whitesmoke;
+}
 
 .w-100 {
     max-width: 1200px;

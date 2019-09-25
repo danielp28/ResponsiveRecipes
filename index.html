@@ -21,18 +21,17 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-navbar">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg" id="main-navbar">
+    <a class="navbar-brand inherit-color" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Discover</a>
-        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-item nav-link inherit-color active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link inherit-color" href="#">Features</a>
+        <a class="nav-item nav-link inherit-color" href="#">Discover</a>
       </div>
     </div>
   </nav>
@@ -105,96 +104,96 @@
 
     <br>
     <div class="row">
-      <div class="col-md-12" >
+      <div class="col-md-12">
         <form class="form-container" style="width:100%">
           <div class="row">
-          <div class="col-md-9" id="searchbar-div">
-            <div class="form-group">
-              <input type="search" class="form-control" id="recipe-search" aria-describedby="searchHelp"
-                placeholder="Search for Recipe">
+            <div class="col-md-9" id="searchbar-div">
+              <div class="form-group">
+                <input type="search" class="form-control" id="recipe-search" aria-describedby="searchHelp"
+                  placeholder="Search for Recipe">
+              </div>
+            </div>
+            <div class="col-md-2" id="dietary-div">
+              <button class="btn btn-secondary" id="dietary-restrictions" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Dietary Restriction
+              </button>
+            </div>
+            <div class="col-md-1" id="search-div">
+              <button type="submit" class="btn btn-outline-success" id="search-button">Search</button>
             </div>
           </div>
-          <div class="col-md-2" id="dietary-div">
-            <button class="btn btn-secondary" id="dietary-restrictions" type="button" data-toggle="collapse"
-              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              Dietary Restriction
-            </button>
-          </div>
-          <div class="col-md-1" id="search-div">
-            <button type="submit" class="btn btn-outline-success" id="search-button">Search</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12">
               <div class="collapse" id="collapseExample">
-                  <div class="restrictions-container">
-                    <div class="form-group form-check">
-                      <ul class="list-group list-group-flush">
-      
-                        <div class="row">
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck1" value="data-health">
-                            <label class="custom-control-label" for="customCheck1">Alcohol-free</label>
-                          </div>
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck2" value="#">
-                            <label class="custom-control-label" for="customCheck2">Balanced</label>
-                          </div>
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck3" value="#">
-                            <label class="custom-control-label" for="customCheck3">High Protein</label>
-                          </div>
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck4" value="#">
-                            <label class="custom-control-label" for="customCheck4">Low-carb</label>
-                          </div>
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck5" value="#">
-                            <label class="custom-control-label" for="customCheck5">Low-fat</label>
-                          </div>
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck6" value="#">
-                            <label class="custom-control-label" for="customCheck6">Peanut-free</label>
-                          </div>
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck7" value="#">
-                            <label class="custom-control-label" for="customCheck7">Sugar-concious</label>
-                          </div>
-      
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck8" value="#">
-                            <label class="custom-control-label" for="customCheck8">Tree-Nut-free</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck9" value="#">
-                            <label class="custom-control-label" for="customCheck9">Vegan</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck10" value="#">
-                            <label class="custom-control-label" for="customCheck10">Vegetarian</label>
-                          </div>
-                      </ul>
-                    </div>
+                <div class="restrictions-container">
+                  <div class="form-group form-check">
+                    <ul class="list-group list-group-flush">
+
+                      <div class="row">
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck1" value="data-health">
+                          <label class="custom-control-label" for="customCheck1">Alcohol-free</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck2" value="#">
+                          <label class="custom-control-label" for="customCheck2">Balanced</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck3" value="#">
+                          <label class="custom-control-label" for="customCheck3">High Protein</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck4" value="#">
+                          <label class="custom-control-label" for="customCheck4">Low-carb</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck5" value="#">
+                          <label class="custom-control-label" for="customCheck5">Low-fat</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck6" value="#">
+                          <label class="custom-control-label" for="customCheck6">Peanut-free</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck7" value="#">
+                          <label class="custom-control-label" for="customCheck7">Sugar-concious</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck8" value="#">
+                          <label class="custom-control-label" for="customCheck8">Tree-Nut-free</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck9" value="#">
+                          <label class="custom-control-label" for="customCheck9">Vegan</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck10" value="#">
+                          <label class="custom-control-label" for="customCheck10">Vegetarian</label>
+                        </div>
+                    </ul>
                   </div>
                 </div>
+              </div>
+            </div>
           </div>
-        </div>
         </form>
       </div>
     </div>
     <!--these are the cards-->
 
     <br>
-    
+
     <div class="cards-div d-flex flex-wrap justify-content-around">
-     
+
 
     </div>
 
@@ -211,7 +210,7 @@
   <!--Cards end-->
 
 
-  
+
 </body>
 
 </html>
