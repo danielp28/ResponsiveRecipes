@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 16px;
-    /* background-color: rgba(35, 131, 35, 0.637); */
+    background-color: rgba(35, 131, 35, 0.637);
     
 }
 
@@ -72,8 +72,7 @@ width: 80%;
     
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /* #searchbar-div, #search-div, #dietary-div {
 margin: 0%;
 } */
@@ -83,16 +82,10 @@ margin: 0%;
 #search-div {
     text-align: right;
     margin-left: 0px;
-=======
+}
 .d-md-block {
     background-color: cadetblue;
     opacity: .85;
->>>>>>> master
-=======
-.d-md-block {
-    background-color: cadetblue;
-    opacity: .85;
->>>>>>> master
 }
 
 #carouselExampleCaptions img {
