@@ -2,13 +2,20 @@ body{
     box-sizing: border-box;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: 16px;
-    background-color: rgba(35, 131, 35, 0.637);
-    
+    background-color: rgb(63, 122, 77);
 }
 
 #main-navbar {
     background-color: cadetblue;
     color: white;
+}
+
+.inherit-color {
+    color: inherit;
+}
+
+.inherit-color:hover {
+    color: whitesmoke;
 }
 
 .w-100 {
@@ -18,7 +25,12 @@ body{
 
 .form-container {
     margin-bottom: 20px;
+    padding-right: 10px;
+}
 
+.restrictions-container {
+    background-color: white;
+    border-radius: 5px;
 }
 
 #search-form {
@@ -31,6 +43,14 @@ width: 80%;
 
 #search-button {
     margin: 0;
+    color: rgb(255, 255, 255);    
+    border-color: cadetblue;
+    background-color: cadetblue;
+    
+}
+
+#recipe-search {
+    border-radius: 20px;
 }
 
 .navbar {
@@ -70,12 +90,27 @@ width: 80%;
 
 #dietary-restrictions {
     margin-bottom: 5px;
+    color: rgb(255, 255, 255);    
+    border-color: cadetblue;
+    background-color: cadetblue;
+
     
 }
 
 .d-md-block {
     background-color: cadetblue;
     opacity: .85;
+}
+
+/* #searchbar-div, #search-div, #dietary-div {
+margin: 0%;
+} */
+#dietary-div {
+    text-align: center;
+}
+#search-div {
+    text-align: right;
+    margin-left: 0px;
 }
 
 #carouselExampleCaptions img {
