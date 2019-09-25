@@ -21,23 +21,28 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-navbar">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar sticky-top navbar-expand-lg" id="main-navbar">
+    <a class="navbar-brand inherit-color" href="#">
+      <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top"
+        alt="">
+      Responsive Recipes
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Discover</a>
-        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-item nav-link inherit-color" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link inherit-color" href="#recipe-search">Search</a>
+        <a class="nav-item nav-link inherit-color" href="map.html">Stores</a>
+        <!--   <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+     -->
       </div>
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container" id="home">
     <div class="row" id="featured-recipes">
       <div class="container-fluid">
         <div class="bd-example">
@@ -105,27 +110,27 @@
 
     <br>
     <div class="row">
-      <div class="col-md-12" >
+      <div class="col-md-12">
         <form class="form-container" style="width:100%">
           <div class="row">
-          <div class="col-md-9" id="searchbar-div">
-            <div class="form-group">
-              <input type="search" class="form-control" id="recipe-search" aria-describedby="searchHelp"
-                placeholder="Search for Recipe">
+            <div class="col-md-9" id="searchbar-div">
+              <div class="form-group">
+                <input type="search" class="form-control" id="recipe-search" aria-describedby="searchHelp"
+                  placeholder="Search for Recipe">
+              </div>
+            </div>
+            <div class="col-md-2" id="dietary-div">
+              <button class="btn btn-secondary" id="dietary-restrictions" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Dietary Restriction
+              </button>
+            </div>
+            <div class="col-md-1" id="search-div">
+              <button type="submit" class="btn btn-outline-success" id="search-button">Search</button>
             </div>
           </div>
-          <div class="col-md-2" id="dietary-div">
-            <button class="btn btn-secondary" id="dietary-restrictions" type="button" data-toggle="collapse"
-              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              Dietary Restriction
-            </button>
-          </div>
-          <div class="col-md-1" id="search-div">
-            <button type="submit" class="btn btn-outline-success" id="search-button">Search</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12">
               <div class="collapse" id="collapseExample">
                   <div class="restrictions-container">
                     <div class="form-group form-check">
@@ -184,17 +189,18 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
           </div>
-        </div>
         </form>
       </div>
     </div>
     <!--these are the cards-->
 
     <br>
-    
+
     <div class="cards-div d-flex flex-wrap justify-content-around">
-     
+
 
     </div>
 
@@ -211,7 +217,7 @@
   <!--Cards end-->
 
 
-  
+
 </body>
 
 </html>
