@@ -61,6 +61,7 @@
             infoWindow.open(map);
             map.setCenter(pos);
             getNearByPlaces(pos);
+            getNearByStores(pos);
           }, function() {
             console.log("calling handleLocationError(true)");
             handleLocationError(true, infoWindow, map.getCenter());
@@ -80,6 +81,17 @@
           location: pos,
           radius: '500',
           query: 'grocery'
+        };
+      
+        service = new google.maps.places.PlacesService(map);
+        service.textSearch(request, callback);
+      }
+      function getNearByStores(pos) {
+        console.log("getNearByPlaces:" + pos.lat + "," + pos.lng);
+        request = {
+          location: pos,
+          radius: '500',
+          query: 'health-grocery'
         };
       
         service = new google.maps.places.PlacesService(map);
