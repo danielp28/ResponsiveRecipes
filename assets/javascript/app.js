@@ -43,7 +43,7 @@ $(document).ready(function () {
       newRow.addClass("row");
       
       
-      for (var i=0; i<9; i++){
+      for (var i=0; i<response.hits.length - 1; i++){
         var newCol = $("<div>");
         newCol.addClass("col-md-4");
         var newCard = $("<div>");
